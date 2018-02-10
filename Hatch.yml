@@ -1,0 +1,9 @@
+name: Meta
+version: 0.0.1
+build:
+  kind: static-lib
+  compiler: g++
+  compiler_flags: -c --std=c++1z
+  linker_flags: -v
+  arch: x64
+  target: debug
